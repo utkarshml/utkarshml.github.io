@@ -132,7 +132,7 @@ img {
     left: 0;
     z-index: var(--z-fixed);
     background-color:var(--body-color);
-    /* border: 2px solid black; */
+     /* border: 2px solid black;  */
 }
 /* =======nav===== */
 .nav {
@@ -146,19 +146,19 @@ img {
 
 }
 
-.nav_logo
+#nav_logo
 {
     color: var(--text-color);
     font-weight: var(--font-semi-bold);
     /* margin: 100px; */
 }
-.nav_toggle{
+#nav_toggle{
     color: var(--text-color);
     font-weight: var(--font-semi-bold);
     /* margin: 100px; */
 
 }
-.nav_logo:hover{
+#nav_logo:hover{
 color: var(--first-color);
 
 }
@@ -175,7 +175,8 @@ color: var(--first-color);
         position: fixed;
         bottom: -100%;
         left: 0;
-        z-index:-2;
+        z-index:var(--z-fixed);
+        background-color:var(--body-color);
         border-radius: 2rem 2rem 0 0;
         border-color: var(--body-color);
         padding: 2rem 1.5rem 4rem;
