@@ -179,7 +179,7 @@ color: var(--first-color);
     
         border-radius: 2rem 2rem 0 0;
         background: rgba( 255, 255, 255, 0.55 );
-backdrop-filter: blur( 8px );
+backdrop-filter: blur( 2px );
 -webkit-backdrop-filter: blur( 8px );
 border: 1px solid rgba( 255, 255, 255, 0.18 );
         border-color: var(--body-color);
@@ -223,4 +223,44 @@ color: var(--first-color);
 
 }
 
-/* ======Show menu======= */
+/* ========Home======= */
+.home_container{
+    gap:1rem;
+}
+.home_content{
+    grid-template-columns: .5fr 3fr;
+    padding-top: 3.5rem;
+    align-items: center;
+
+}
+.home_social{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+.home_social-icon{
+    font-size: 1.25rem;
+    color: var(--first-color);
+}
+.home_social-icon:hover{
+    color: var(--first-color-alt);
+
+}
+.homw_blob{
+    width: 200px;
+    
+}
+.home_data{
+    grid-column: 1/3;
+}
+.home_tittle{
+    font-size: var(--big-font-size);
+
+}
+.home_tittle_subtitle{
+    font-size: var(--h3-font-size);
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
+
+}
